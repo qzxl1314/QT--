@@ -62,3 +62,4 @@ void myscene::contin(){
         this->item[i]->setStart(true);
     }
 }
+

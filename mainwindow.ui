@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>946</width>
-    <height>827</height>
+    <height>842</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,9 +19,12 @@
      <widget class="QGraphicsView" name="graphicsView"/>
     </item>
     <item>
-     <layout class="QVBoxLayout" name="verticalLayout" stretch="2,5,1,1,1">
+     <layout class="QVBoxLayout" name="verticalLayout" stretch="2,1,4,1,1,1">
       <item>
        <widget class="QLCDNumber" name="lcdNumber"/>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="lcdNumber_2"/>
       </item>
       <item>
        <spacer name="verticalSpacer">
@@ -70,6 +73,14 @@
      <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuDasd">
+    <property name="title">
+     <string>dasd</string>
+    </property>
+    <addaction name="actionAds"/>
+    <addaction name="actionAsdas"/>
+   </widget>
+   <addaction name="menuDasd"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -80,6 +91,16 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAds">
+   <property name="text">
+    <string>ads</string>
+   </property>
+  </action>
+  <action name="actionAsdas">
+   <property name="text">
+    <string>asdas</string>
+   </property>
+  </action>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>

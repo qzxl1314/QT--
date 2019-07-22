@@ -11,7 +11,8 @@ class myscene : public QGraphicsScene
     Q_OBJECT
 public:
     explicit myscene(QObject *parent = 0);
-
+    QTimer * ptimer;
+     pictureitem * item[16];
 signals:
 
 public slots:
@@ -21,8 +22,8 @@ public slots:
     void pause();
     void contin();
 private:
-    pictureitem * item[16];
-    QTimer * ptimer;
+
+
 };
 
 #endif // MYSCENE_H
